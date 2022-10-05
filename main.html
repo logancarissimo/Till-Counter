@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Till Counter</title>
+    <meta name="description" content="Become a till counting pro.">
+    <meta name="author" content="SitePoint">
+
+    <meta property="og:title" content="Till Counter">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Become a till counting pro!" />
+    
+    <link rel="stylesheet" href="styles/main.css">
+    
+</head>
+
+<body>
+    <h1>Tilly Pro</h1>
+    <form>
+        <table id="table">
+            <tr>
+                <th>Type</th>
+                <th>Inputs</th>
+                <th>Totals</th>
+            </tr>
+
+            <!--Rolls-->
+            <tr>
+                <td>Coin Rolls/ Coins</td>
+                <td><input id="roll" class="qty" type="text" placeholder="(dollar amount)" /></td>
+                <td><span id="rollout"></span></td>
+            </tr>
+
+            <!--Quarters-->
+            <tr>
+                <td>Quarters</td>
+                <td><input id="quar" class="qty" type="text"/></td>
+                <td><span id="quarout"></span></p></td>
+            </tr>
+
+            <!--Dimes-->
+            <tr>
+                <td>Dimes</td>
+                <td><input id="dime" class="qty" type="text"/></td>
+                <td><span id="dimeout"></span></td>
+            </tr>
+
+            <!--Nickles-->
+            <tr>
+                <td>Nickles</td>
+                <td><input id="nick" class="qty" type="text"/></td>
+                <td><span id="nickout"></span></td>
+            </tr>
+
+            <!--Pennies-->
+            <tr>
+                <td>Pennies</td>
+                <td><input id="pen" class="qty" type="text"/></td>
+                <td><span id="penout"></span></td>
+            </tr>
+
+            <!--1s-->
+            <tr>
+                <td>1s</td>
+                <td><input id="1" class="qty" type="text"/></td>
+                <td><span id="1out"></span></td>
+            </tr>
+            <!--2s-->
+            <tr>
+                <td>2s</td>
+                <td><input id="2" class="qty" type="text"/></td>
+                <td><span id="2out"></span></td>
+            </tr>
+
+            <!--5s-->
+            <tr>
+                <td>5s</td>
+                <td><input id="5" class="qty" type="text"/></td>
+                <td> <span id="5out"></span></td>
+            </tr>
+
+            <!--10s-->
+            <tr>
+                <td>10s</td>
+                <td><input id="10" class="qty" type="text"/></td>
+                <td><span id="10out"></span></td>
+            </tr>
+
+            <!--20s-->
+            <tr>
+                <td>20s</td>
+                <td><input id="20" class="qty" type="text"/></td>
+                <td><span id="20out"></span></td>
+            </tr>
+
+            <!--50s-->
+            <tr>
+                <td>50s</td>
+                <td><input id="50" class="qty" type="text"/></td>
+                <td><span id="50out"></span></td>
+            </tr>
+
+            <!--100s-->
+            <tr>
+                <td>100s</td>
+                <td><input id="100" class="qty" type="text"/></td>
+                <td><span id="100out"></span></td>
+            </tr>
+
+            <!--Total-->
+            <tr>
+                <th>Total</th>
+                <td><input type="button" value="Calculate" onclick="update();" /></td>
+                <th id="tout"></th>
+            </tr>
+            </table>
+            <!--<p class="total_out">Your till is: <span id="tout"></span></p>-->
+            <!--Calculate button-->
+
+</form>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
